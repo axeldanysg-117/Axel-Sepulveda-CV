@@ -1,0 +1,117 @@
+<!-- Tu CV empieza aquí. Sigue los pasos de la izquierda. -->
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="keywords" content="CV, desarrollo web, HTML, UNITEC">
+  <meta name="description" content="Estudiante de Ingeniería en Sistemas. Mis proyectos y mi contacto.">
+  <title>Axel Sepulveda</title> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <script src="js/interactions.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <p class="highlight">Busco prácticas profesionales · Disponible desde enero</p>
+    </div>
+    <h1>Axel Sepulveda</h1>
+    <img src="/publico/img/muestras/profile.svg" alt="Silueta de foto de perfil">
+    <nav>
+      <ul>
+        <li><a href="#about">Perfil</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#education">Educación</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="row" id="about">
+      <h2>Perfil</h2>
+      <div class="col-1-2">
+        <p>Estudiante de 8° cuatrimestre de Ingeniería en Sistemas Computacionales con enfoque integral en programación y redes de computadoras. Perfil analítico y autodidacta con sólidos fundamentos en resolución algorítmica y arquitectura de sistemas.</p>
+        <a class="primary-btn" href="#projects"> Ver mis proyectos></a>
+        <button type="button" id="toggle-details" aria-expanded="false">Más sobre mí </button>
+      </div>
+      <div class="col-1-2">
+        <p>Busco prácticas profesionales en desarrollo web.</p>
+      </div>
+    </section>
+    <section class="row" id="projects">
+      <h2>Proyectos</h2>
+
+      <article class="col-1-3">
+        <img src="/publico/img/muestras/proyecto1.jpg" alt="Captura de pantalla de videojuego de estrategia estilo survival horror">
+        <h3>Videojuego de Estrategia basado en Resident Evil</h3>
+        <p>Un juego de estrategia desarrollado con Programación Orientada a Objetos, donde aprendí a estructurar clases, manejar herencia y gestionar el estado de los elementos.</p>
+      </article>
+
+      <article class="col-1-3">
+        <img src="/publico/img/muestras/proyecto2.jpg" alt="Interfaz de usuario del software de gestión médica ClinicaSoft">
+        <h3>ClinicaSoft</h3>
+        <p>Un sistema de software ficticio para la gestión de un consultorio médico, con el que aprendí a integrar bases de datos de pacientes y diseñar interfaces de administración.</p>
+      </article>
+
+      <article class="col-1-3">
+        <img src="/publico/img/muestras/proyecto3.jpg" alt="Diagrama de topología de red simulada en software">
+        <h3>Simulaciones en Packet Tracer</h3>
+        <p>Laboratorios prácticos de subnetting y enrutamiento, donde reforcé mis conocimientos en arquitectura de redes y configuración de protocolos fundamentales.</p>
+      </article>
+    </section>
+    <section class="row" id="experience">      
+      <h2>Experiencia</h2>
+      <ul>
+        <li>Servicio Social en Soporte Técnico y manteniemiento a la infraestrctura de computo que da servicio a todo el sistema UNITEC
+        </li>
+      </ul>
+    </section>
+    <section class="row" id="education">   
+      <h2>Educación</h2>
+      <ul>
+        <li>Universidad Tecnológica de México (UNITEC) campus Atizapán</li>
+      </ul>
+    </section>
+    <section class="row" id="skills">   
+      <h2>Habilidades</h2>
+      <ol>
+        <li>
+          Resolución de problemas
+        </li>
+        <li>
+          Trabajo en Equipo
+        </li>
+        <li>
+          Pensamiento analítico
+        </li>
+        <li>
+          Adaptabilidad
+        </li>
+        <li>
+          Gestión del Tiempo
+        </li>
+      </ol>
+      <figure id="skills-gallery">
+        <img id="gallery-image" src="/publico/img/muestras/article-html.svg" alt="HTML: dos corchetes angulares sobre fondo verde">
+        <p id="image-counter" aria-live="polite"></p>
+        <div class="gallery-controls">
+          <button type="button" id="prev-image">Anterior</button>
+          <button type="button" id="next-image">Siguiente</button>
+        </div>
+      </figure>
+    </section>
+    <a class="contact-float" href="mailto:axeldanysg@gmail.com">Escríbeme</a>
+  </main>
+  <footer>
+    <p>Contacto: <a href="mailto:axeldanysg@gmail.com">axeldanysg@gmail.com</a></p>
+    <p>Hecho a mano con HTML y CSSjjjj</p>   
+  </footer>
+</body>
+</html>
